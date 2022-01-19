@@ -5,7 +5,7 @@ function App() {
     <>
       <Navbar />
       <div className="under-construction">
-        <h1> UNDER CONSTRUCTION 2022</h1> 
+        <h1> UNDER CONSTRUCTION! 2022</h1> 
       </div>
     </>
 
