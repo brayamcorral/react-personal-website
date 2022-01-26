@@ -27,6 +27,12 @@ code {
 /* phone size */
 @media screen and (max-width: 800px) {
 
+    .navbar-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .navbar {
         width: 100vw; 
         height: auto;
@@ -79,6 +85,10 @@ code {
 
 /* Larger Screen */
 @media screen and (min-width: 800px) {
+
+    .navbar-toggle {
+        display: none;
+    }
 
     .navbar {
         width: 60vw; /* dont want to take entire screen for huge screens*/
