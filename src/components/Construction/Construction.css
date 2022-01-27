@@ -1,0 +1,18 @@
+.under-construction {
+    height: auto;
+    width: 75%;
+    margin: 10rem auto;
+}
+
+
+.under-construction h1 {
+    font-size: 4vw;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.under-construction:hover {
+    color: rgb(101, 198, 231);
+    transition: all 0.5s linear;
+}
+

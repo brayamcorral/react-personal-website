@@ -1,11 +1,9 @@
 import './Home.css';
-
+import Construction from '../../components/Construction/Construction.jsx';
 function App() {
   return (
     <>
-      <div className="under-construction">
-        <h1> UNDER CONSTRUCTION! 2022</h1> 
-      </div>
+      <Construction name = "HOME"/>
     </>
 
   );

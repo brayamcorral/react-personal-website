@@ -1,7 +1,12 @@
 import React from 'react';
+import Construction from '../../components/Construction/Construction.jsx';
 
 function Projects() {
-  return <div> Project </div>;
+  return (
+    <>
+      <Construction name = "PROJECTS"/>
+    </>
+  );
 }
 
 export default Projects;
