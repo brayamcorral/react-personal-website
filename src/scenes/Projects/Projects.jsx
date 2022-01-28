@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import Construction from '../../components/Construction/Construction.jsx';
 import {reactProjects} from './data.jsx';
 import Spinner from '../../components/Spinner/Spinner.jsx';
 import './Projects.css';
@@ -45,6 +44,8 @@ function Projects() {
               <a href = {url}> Link </a>
             </article>
           );
+        } else {
+          return <></>
         }
       })
 
