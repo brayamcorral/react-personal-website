@@ -1,3 +1,37 @@
-.project-tile {
-    background-color: rgb(212, 212, 228);
+.project-grid a {
+
+    text-decoration: none;
 }
+
+.project-grid {
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350.33px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
+}
+
+.project-grid img {
+    height: 50%;
+    object-fit: cover;
+}
+
+.project-tile {
+    border: .5rem solid rgb(212, 212, 228);
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    text-align: center;
+    color: black;
+    border-radius: 1rem;
+}
+
+.project-tile:hover {
+    background-color: rgb(170, 170, 208);
+    color: white
+}
+
+.project-tile p {
+    font-weight: 200;
+    font-size: 0.75rem;
+}
+

@@ -29,11 +29,12 @@ export const reactProjects = [
     {
         id: 4,
         name: 'Birthday Reminder',
-        description: 'Reminder for popular birthdays.',
+        description: 'Reminder for popular birthdays. ',
         type: 'React',
         url: 'https://birthday-reminder-bc.netlify.app',
         favorite: false,
         show: true
     },
+    
         
 ]

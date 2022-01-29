@@ -34,22 +34,28 @@ function Projects() {
   else {
     console.log(data);
     return (
-      data.map(({id, name, description, type, url, favorite, show}) => {
-        if(show){
-          return (
-            <article className="project-tile" key = {id}> 
-              <h1> {name} </h1>
-              <p> {description} </p>
-              <p> {type} </p>
-              <a href = {url}> Link </a>
-            </article>
-          );
-        } else {
-          return <></>
-        }
-      })
-
+      <article className="project-grid">
+        {
+        data.map(({id, name, description, type, url, favorite, show}) => {
+          if(show){
+            return (
+               <a href = {url}>
+              <article className="project-tile" key = {id}> 
+                <img src = "./React-logo.png"></img>
+                <h1> {name} </h1>
+                <p> {description} </p>
+                {/* <p> {type} </p> */}
+              </article>
+              </a>
+            );
+          } else {
+            return <></>
+          }
+        })
+      }
+    </article>
     );
+   
   }
 
 
