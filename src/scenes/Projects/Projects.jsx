@@ -41,7 +41,7 @@ function Projects() {
             return (
                <a href = {url}>
               <article className="project-tile" key = {id}> 
-                <img src = "./React-logo.png"></img>
+                <img src = "./React-logo.png" alt = ""></img>
                 <h1> {name} </h1>
                 <p> {description} </p>
                 {/* <p> {type} </p> */}
