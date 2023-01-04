@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './scenes/Home/Home.jsx';
 // import Projects from './scenes/Projects/Projects.jsx';
 import Error from './scenes/Error/Error.jsx';
-import Navbar from './components/Navbar/Navbar.jsx'
+// import Navbar from './components/Navbar/Navbar.jsx'
 
 ReactDOM.render(
   <React.StrictMode>
